@@ -53,23 +53,20 @@ body {
     border-radius: 10px;
 }
 
-.titre {
+h1 {
     grid-column: 1/3;
     grid-row: 2;
     font-family: 'Outfit', sans-serif;
     color: hsl(0, 0%, 100%);
     font-size: 22px;
-}
-
-h1 {
     margin: initial;
 }
 
-.nom:hover {
+.zone-nom:hover {
     color: hsl(178, 100%, 50%);
 }
 
-.description {
+.zone-description {
     grid-column: 1/3;
     grid-row: 3;
     color: hsl(215, 51%, 70%);
@@ -78,7 +75,7 @@ h1 {
     font-size: 18px;
 }
 
-.valeur {
+.zone-valeur {
     grid-column: 1;
     grid-row: 4;
     font-family: 'Outfit', sans-serif;
@@ -86,7 +83,7 @@ h1 {
     font-weight: 600;
 }
 
-.valeur::before {
+.zone-valeur::before {
     content: "";
     position: relative;
     height: 100%;
@@ -96,7 +93,7 @@ h1 {
     padding-right: 20px;
 }
 
-.duree {
+.zone-duree {
     grid-column: 2;
     grid-row: 4;
     text-align: end;
@@ -105,7 +102,7 @@ h1 {
     font-weight: 400;
 }
 
-.duree::before {
+.zone-duree::before {
     content: "";
     position: relative;
     height: 100%;
@@ -115,7 +112,7 @@ h1 {
     padding-right: 25px;
 }
 
-.createur {
+.zone-createur {
     grid-column: 1/3;
     grid-row: 5;
     color: hsl(215, 51%, 70%);
