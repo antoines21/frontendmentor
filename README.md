@@ -1,12 +1,14 @@
 ﻿# Bienvenue dans ce répertoire
 
-Bonjour, ce répertoire contient les différents projets que j'ai réalisés à partir du site [www.frontendmentor.io](https://www.frontendmentor.io/).
+Bonjour, ce répertoire contient les différents défis que j'ai réalisés à partir du site [www.frontendmentor.io](https://www.frontendmentor.io/).
 
 
 ## Organisation
 
- - Chaque projet et dans un dossier propre
- - Le fichier *index.html* est un répertoire pour accéder aux différents projets rapidement (avec GitHub Pages)
+ - Chaque défi a son propre dossier ;
+ - Chaque défi contient ses propres consignes provenant du site.
 
-**À bientôt**
-*Antoine S.*
+## Liste des projets
+- [Nft Preview](nft-preview)
+
+**À bientôt**, *Antoine S.*
