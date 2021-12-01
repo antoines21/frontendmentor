@@ -9,6 +9,6 @@ Bonjour, ce répertoire contient les différents défis que j'ai réalisés à p
  - Chaque défi contient ses propres consignes provenant du site.
 
 ## Liste des projets
-- [Nft Preview](nft-preview)
+- [NFT Preview](nft-preview)
 
 **À bientôt**, *Antoine S.*
