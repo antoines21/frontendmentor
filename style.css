@@ -38,7 +38,7 @@ body {
     background-size: contain;
 }
 
-.image:before {
+.image::before {
     content: "";
     position: absolute;
     height: 100%;
@@ -50,7 +50,7 @@ body {
     background-position: center;
 }
 
-.image:hover:before {
+.image:hover::before {
     opacity: 1;
     background-color: hsl(178deg 100% 50% / 30%);
     border-radius: 10px;
@@ -86,7 +86,7 @@ body {
     font-weight: 600;
 }
 
-.zone-valeur:before {
+.zone-valeur::before {
     content: "";
     position: relative;
     height: 100%;
@@ -105,7 +105,7 @@ body {
     font-weight: 400;
 }
 
-.zone-duree:before {
+.zone-duree::before {
     content: "";
     position: relative;
     height: 100%;
