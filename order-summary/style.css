@@ -1,0 +1,99 @@
+:root {
+    /* Primary */
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    /* Neutral */
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desatured-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+.card {
+    margin: 100px auto 30px;
+    width: 450px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    background-color: var(--pale-blue);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+}
+
+.card__content__title {
+    font-weight: 900;
+    text-align: center;
+    font-size: 28px;
+    color: var(--dark-blue);
+    margin-bottom: 10px;
+}
+
+.card__content__description {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: var(--desatured-blue);
+    margin-top: 0;
+    line-height: 25px;
+}
+
+.card__content__price {
+    background-color: var(--very-pale-blue);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.card__content {
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card__content__cancel {
+    text-align: center;
+    font-weight: 900;
+    color: var(--desatured-blue);
+}
+
+.card__content__price__plan__price {
+    color: var(--desatured-blue);
+}
+
+.card__content__paiement {
+    background-color: var(--bright-blue);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 700;
+    border: none;
+}
+
+.card__content__price__plan__title {
+    font-weight: 900;
+    color: var(--dark-blue);
+}
+
+.card__content__price__change {
+    color: var(--bright-blue);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
