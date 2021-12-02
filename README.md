@@ -10,5 +10,6 @@ Bonjour, ce répertoire contient les différents défis que j'ai réalisés à p
 
 ## Liste des projets
 - [NFT Preview Card](nft-preview-card)
+- [Order Summary](order-summary)
 
 **À bientôt**, *Antoine S.*
