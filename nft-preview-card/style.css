@@ -143,3 +143,13 @@ body {
 .icone {
     margin-right: 7px;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        zoom: 85%;
+    }
+
+    .carte {
+        margin: 75px auto 20px;
+    }
+}
