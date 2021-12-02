@@ -30,7 +30,7 @@ body {
     text-align: center;
     font-size: 28px;
     color: var(--dark-blue);
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .card__content__description {
@@ -48,7 +48,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 15px;
+    padding: 22px;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
 }
 
 .card__content {
@@ -62,6 +64,13 @@ body {
     text-align: center;
     font-weight: 900;
     color: var(--desatured-blue);
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.card__content__cancel:hover {
+    cursor: pointer;
+    color: var(--dark-blue);
 }
 
 .card__content__price__plan__price {
@@ -72,9 +81,18 @@ body {
     background-color: var(--bright-blue);
     color: white;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
     font-weight: 700;
     border: none;
+    box-shadow: 0px 10px 25px -9px var(--bright-blue);
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+.card__content__paiement:hover {
+    background-color: var(--bright-blue);
+    opacity: 0.7;
+    cursor: pointer;
 }
 
 .card__content__price__plan__title {
@@ -86,6 +104,17 @@ body {
     color: var(--bright-blue);
     font-weight: 700;
     text-decoration: underline;
+}
+
+.card__content__price__change:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.card__content__price__plan {
+    flex: auto;
+    margin-left: 20px;
+    font-size: 18px;
 }
 
 .attribution {
