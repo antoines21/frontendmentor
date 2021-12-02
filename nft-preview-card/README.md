@@ -28,12 +28,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Ma version](desktop-design.png)
+![My version](desktop-design.png)
 
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/nfs-card-solution-H3fmSToGb)
-- Repository URL: [GitHub](https://github.com/antoines21/frontendmentor/tree/main/nft-preview-cardm)
+- Repository URL: [GitHub](https://github.com/antoines21/frontendmentor/tree/main/nft-preview-card)
 - Live Site URL: [GitHub Pages](https://antoines21.github.io/frontendmentor/nft-preview-card/)
 
 ## My process
